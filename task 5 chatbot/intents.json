@@ -1,0 +1,53 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is big bang?"],
+            "responses": ["The Big Bang theory is the prevailing cosmological model explaining the existence of the observable universe from the earliest known periods through its subsequent large-scale evolution."],
+            "context": [""]
+        },
+        {
+            "tag": "about_bot",
+            "patterns": ["What can you do?", "Tell me about yourself", "Who created you?", "What is your purpose?"],
+            "responses": ["I am here to assist you with information. My purpose is to help and provide guidance.", "I'm a virtual assistant designed to provide information and assistance."],
+            "context": [""]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather today?", "Tell me about the weather", "Is it going to rain today?"],
+            "responses": ["I can help you check the weather. Please provide your location for accurate information.", "I can assist with checking the weather. Could you specify your location?"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks_feedback",
+            "patterns": ["Thank you for your help", "Thanks for the assistance", "Thank you!"],
+            "responses": ["Glad I could assist! If you need anything else, feel free to ask.", "You're welcome! If you have more questions, feel free to ask."],
+            "context": [""]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Can you tell me the current time?", "Do you have the time?"],
+            "responses": ["I don't have real-time information. You can check the current time on your device or search it online.", "Unfortunately, I cannot provide real-time information like the current time."],
+            "context": [""]
+        }
+    
+    ]
+}
